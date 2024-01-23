@@ -3,6 +3,7 @@
   "displayName": "HelloWorld",
   "description": "",
   "version": "0.0.1",
+  "publisher": "vscode-start",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -15,7 +16,15 @@
     "commands": [
       {
         "command": "helloworld.helloWorld",
-        "title": "Hello World"
+        "title": "PugBug: Hello World"
+      },
+      {
+        "command": "helloworld.displayCurrentTime",
+        "title": "PugBug: Display Current Time"
+      },
+      {
+        "command": "helloworld.sampleCommand",
+        "title": "PugBug: Input Name"
       }
     ]
   },
